@@ -104,7 +104,18 @@ Os resultados demonstram a viabilidade do uso de Machine Learning para detecçã
 
 ## Dataset
 
+O dataset utilizado neste projeto é público e está disponível no Kaggle:
 
+🔗 **https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset**
+
+Por questões de tamanho (acima de 25 MB), o arquivo CSV não está incluído diretamente no repositório.
+
+### 📌 Informações sobre o dataset
+- Origem: Kaggle
+- Autor: Naser Abdullah Alam
+- Licença: CC BY-SA 4.0
+- Formato: CSV
+- Classes: E-mails legítimos e e-mails de phishing
 
 ---
 
