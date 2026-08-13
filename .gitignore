@@ -44,6 +44,6 @@ profile_default/
 *.log
 db.sqlite3
 
-# Dataset (arquivo grande, não deve ir para o repositório)
+# Dataset
 data/
 *.csv
