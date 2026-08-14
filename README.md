@@ -1,18 +1,18 @@
-# 🎣 Detecção de Phishing com Machine Learning
+#  Detecção de Phishing com Machine Learning
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/Licença-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikitlearn)
 
-> 🎓 **Trabalho de Conclusão de Curso (TCC)** apresentado à **Universidade Federal do Ceará (UFC)** como requisito para conclusão do curso de **Segurança da Informação**.
+>  **Trabalho de Conclusão de Curso (TCC)** apresentado à **Universidade Federal do Ceará (UFC)** como requisito para conclusão do curso de **Segurança da Informação**.
 
 **Autor:** Tiago Andrade
 **Ano:** 2025
 
 ---
 
-## 📌 Sobre o projeto
+##  Sobre o projeto
 
 E-mails de phishing continuam sendo uma das portas de entrada mais comuns para ataques cibernéticos, explorando engenharia social para roubo de credenciais e dados sensíveis. Este projeto investiga a **viabilidade do uso de Machine Learning para detecção automática de e-mails de phishing**, aplicando técnicas de Processamento de Linguagem Natural (NLP) para transformar texto em características computáveis, e comparando o desempenho de diferentes algoritmos de classificação — tanto em métricas preditivas quanto em custo computacional.
 
@@ -20,13 +20,13 @@ O trabalho segue metodologia científica: pré-processamento de texto, validaç�
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Detectar automaticamente e-mails de phishing utilizando **Processamento de Linguagem Natural (NLP)** e **Aprendizado de Máquina**, comparando diferentes algoritmos de classificação quanto à qualidade das predições e à eficiência computacional.
 
 ---
 
-## 🧠 Técnicas utilizadas
+##  Técnicas utilizadas
 
 - Processamento de Linguagem Natural (NLP)
 - TF-IDF (Term Frequency–Inverse Document Frequency)
@@ -35,7 +35,7 @@ Detectar automaticamente e-mails de phishing utilizando **Processamento de Lingu
 - Métricas de desempenho: Acurácia, Precisão, Recall e F1-Score
 - Análise de desempenho computacional (tempo de execução e uso de memória)
 
-## 🤖 Modelos avaliados
+##  Modelos avaliados
 
 | Modelo | Biblioteca |
 |---|---|
@@ -43,13 +43,13 @@ Detectar automaticamente e-mails de phishing utilizando **Processamento de Lingu
 | Support Vector Machine | `sklearn.svm.LinearSVC` |
 | Random Forest Classifier | `sklearn.ensemble.RandomForestClassifier` |
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 Python · Pandas · NumPy · Scikit-learn · SpaCy · Matplotlib · Seaborn · TQDM · PSUtil · SciPy
 
 ---
 
-## 📂 Estrutura do projeto
+##  Estrutura do projeto
 
 ```
 tcc-deteccao-phishing-machine-learning/
@@ -71,7 +71,7 @@ tcc-deteccao-phishing-machine-learning/
 
 ---
 
-## ▶️ Como executar o projeto
+##  Como executar o projeto
 
 ### 1. Clonar o repositório
 ```bash
@@ -95,7 +95,7 @@ python main.py
 
 ---
 
-## 📊 Resultados
+##  Resultados
 
 Os modelos foram avaliados por meio de validação cruzada estratificada (5 folds), comparados pelas métricas de Acurácia, Precisão, Recall e F1-Score, com intervalo de confiança de 95%.
 
@@ -111,7 +111,7 @@ Também foi avaliado o desempenho computacional de cada modelo — tempo de trei
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 O dataset utilizado neste projeto é público e está disponível no Kaggle:
 
@@ -129,6 +129,6 @@ Por questões de tamanho (acima de 25 MB), o arquivo CSV não está incluído di
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Este projeto está licenciado sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
